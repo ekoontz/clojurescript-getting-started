@@ -1,5 +1,6 @@
 (ns hello-bundler.core
-  (:require [react]))
+  (:require [react]
+            [mapbox-gl]))
 
 (.log js/console (str "hello."))
 (.log js/console react/Component)
