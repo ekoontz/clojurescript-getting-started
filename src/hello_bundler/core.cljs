@@ -1,20 +1,17 @@
 (ns hello-bundler.core
   (:require [react]
             [react-dom]
-            ["react-dom/client" :refer [createRoot] :as rdc]
+            ["react-dom/client" :refer [createRoot]]
             [mapbox-gl]))
 
-(.log js/console (str "hello."))
-(.log js/console react/Component)
-(.log js/console (str "goodbye."))
-(.log js/console (str "rdc: " rdc))
-(.log js/console (str "createRoot: " createRoot))
+;; new (react 18):
+(.render (createRoot (.getElementById js/document "app"))
+         "hello!!")
 
-(.log js/console (str "app element id: " (.getElementById js/document "app")))
-;;(.log js/console (str "js/ReactDOM: " js/ReactDOM))
-
+;; old (react pre-18):
 ;;(.render js/ReactDOM
 ;;         (.createElement js/React "h2" nil "This part is dynamically generated.")
 ;;         (.getElementById js/document "app"))
 
 
+ 
