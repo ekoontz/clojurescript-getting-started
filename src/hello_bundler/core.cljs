@@ -1,17 +1,13 @@
 (ns hello-bundler.core
   (:require [react]
-            [react-dom]
-            ["react-dom/client" :refer [createRoot]]
+            ["react-dom/client" :as rcd]
             [mapbox-gl]))
 
-;; new (react 18):
-(.render (createRoot (.getElementById js/document "app"))
-         "hello!!")
+;; https://18.react.dev/
+(def root (rcd/createRoot (.getElementById js/document "app")))
 
-;; old (react pre-18):
-;;(.render js/ReactDOM
-;;         (.createElement js/React "h2" nil "This part is dynamically generated.")
-;;         (.getElementById js/document "app"))
-
+(def h2 (react/createElement "h2" nil "This is an H2."))
+(.render root
+         h2)
 
  
