@@ -5,8 +5,7 @@ Following documentation on [https://clojurescript.org/guides/webpack](https://cl
 ## Setup
 
 ```
-npm install --save react react-dom
-npm install --save mapbox-gl
+npm install --save react react-dom mapbox-gl
 ```
 
 ## Run
