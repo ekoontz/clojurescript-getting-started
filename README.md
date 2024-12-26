@@ -2,14 +2,11 @@
 
 Following documentation on [https://clojurescript.org/guides/webpack](https://clojurescript.org/guides/webpack])
 
-## Setup
-
-```
-npm install --save react react-dom mapbox-gl
-```
-
 ## Run
 
 ```
-clj -M -m cljs.main -co build.edn -v -c -r
+make run
 ```
+This will first `npm install` the dependencies listed in package.json's `dependencies` section, and then run `clj` with the appropriate arguments.
+
+
