@@ -1,6 +1,11 @@
 # hello-bundler
 
-Following documentation on [https://clojurescript.org/guides/webpack](https://clojurescript.org/guides/webpack])
+Following documentation on:
+
+- [https://clojurescript.org/guides/quick-start](ClojureScript Quick Start)
+- [https://clojurescript.org/guides/webpack](ClojureScript with Webpack)
+- [https://figwheel.org/tutorial](Figwheel Tutorial)
+- [https://figwheel.org/docs/create_a_build.html](Figwheel: create a build)
 
 ## Run
 
