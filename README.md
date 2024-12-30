@@ -8,6 +8,12 @@ Following documentation on [https://clojurescript.org/guides/webpack](https://cl
 make run
 ```
 
+Or to make sure you are starting from scratch:
+
+```
+make clean run
+```
+
 This will first `npm install` the dependencies listed in
 package.json's `dependencies` section, and then run `clj` with the
 appropriate arguments, then open
