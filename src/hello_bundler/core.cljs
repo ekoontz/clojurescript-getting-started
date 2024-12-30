@@ -21,7 +21,7 @@
 (def map-props (js-obj "container" "map"
                        "style"      "mapbox://styles/mapbox/streets-v9"
                        "projection" "globe"
-                       "zoom"       "12"
+                       "zoom"       "13"
                        "center"     (js-obj "lng" "4.9" "lat" "52.37")))
 
 (.log js/console (str "map-properties's center: " (. map-props -center)))
