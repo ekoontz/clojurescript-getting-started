@@ -2,10 +2,10 @@
 
 Following documentation on:
 
-- [https://clojurescript.org/guides/quick-start](ClojureScript Quick Start)
-- [https://clojurescript.org/guides/webpack](ClojureScript with Webpack)
-- [https://figwheel.org/tutorial](Figwheel Tutorial)
-- [https://figwheel.org/docs/create_a_build.html](Figwheel: create a build)
+- [ClojureScript Quick Start](https://clojurescript.org/guides/quick-start)
+- [ClojureScript with Webpack](https://clojurescript.org/guides/webpack)
+- [Figwheel Tutorial](https://figwheel.org/tutorial)
+- [Figwheel: create a build](https://figwheel.org/docs/create_a_build.html)
 
 ## Run
 
