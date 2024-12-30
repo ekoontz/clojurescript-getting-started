@@ -1,3 +1,4 @@
+;; https://clojurescript.org/guides/webpack#setting-up
 {:main hello-bundler.core
  :output-to "out/index.js"
  :output-dir "out"

@@ -7,7 +7,7 @@
 (def root (rcd/createRoot (.getElementById js/document "app")))
 
 ;; https://18.react.dev/reference/react/createElement#reference
-(def h2 (react/createElement "h2" nil "Buurts en wijks."))
+(def h2 (react/createElement "h2" nil "Buurten en wijks"))
 (.render root
          h2)
 
